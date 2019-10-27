@@ -1,57 +1,77 @@
-$primary: #ac92e6;
-$secondary: #756892;
-
 header{
-  height: auto;
-  background: ($primary);
-  padding: 1em 0;
+  
+  height:auto;
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  ;
+.container{
+
+  .blinking{
+    animation:blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText{
+    0%{     color: #ffffff;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color: #ffffff;  }
+    100%{   color: #ffffff;    }
+}
+  display: flex;
+  #logo{
+    height:40px;
+    margin: 20px;
+    
+  }
+  .logo-header{
+    font-size:2.3rem;
+    margin: 25px;
+  }
+  
+}
+.logo-header:hover{
+  cursor: pointer;
+}
+
+.content1{
+  border:#ffffff00 solid 1px;
+  margin: 20px;
+}
+.content{
+  color:white;
+  text-align: center;
+  margin: 80px auto;
+  width: 80%;
+
+  
+}
+
+.contact-github{
+  padding: 30px;
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  
+  .btn{
+  display: flex;
+  border: #ffffff solid 2px;
+  color:white;
+  margin: auto;
+  
+  padding: 10px;
+  }
+  .btn:hover{
+    cursor: pointer;
+  }
 
   a{
     color:white;
     text-decoration: none;
   }
-
-  nav{
-    float: right;
-    ul{
-      display: flex;
-      li{
-        list-style-type: none;
-        text-decoration: none;
-        padding: 0 10px;
-
-        .myButton {
-          box-shadow: 0px 10px 14px -7px #276873;
-          background:$secondary;
-          background-color:$secondary;
-          border-radius:8px;
-          display:inline-block;
-          cursor:pointer;
-          color:#ffffff;
-          font-family:Arial;
-          font-size:20px;
-          font-weight:bold;
-          padding:13px 32px;
-          text-decoration:none;
-          text-shadow:0px 1px 0px #3d768a;
-        }
-        .myButton:hover {
-          background:$secondary;
-          background-color:#3e98ff;
-        }
-        .myButton:active {
-          position:relative;
-          top:1px;
-        }
-        
-      }
-    }
-  }
 }
 
-.container{
-  
-  margin: 0 auto;
-  width: 80%;
-  
+
+
 }

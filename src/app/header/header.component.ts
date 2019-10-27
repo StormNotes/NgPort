@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  
-  clickCounter: number = 0;
+  title = `{D}DEV`;
+  clickCounter = 0;
 
   constructor() { }
 
@@ -26,6 +26,11 @@ export class HeaderComponent implements OnInit {
   onClear() {
     this.clickCounter = 0;
     console.log(this.clickCounter);
+  }
+
+  changeText() {
+    alert('does it work?');
+    this.title = `LEOD_DEV`;
   }
 
 }

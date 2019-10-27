@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    .cards{
+    padding: 10px;
+    margin: 0 auto;
+        h5{
+        }
+        p{
+            font-size: 8px;
+        }
+        img{
+            margin: 10px;
+            height:70px;
+        }
+
+        .card-body{
+            text-align: center;
+        }
+    }
+}
