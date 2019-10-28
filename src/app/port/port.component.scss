@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    height:100vh;
+    width: 80%;
+    border:rgba(0, 0, 0, 0.178) solid 0.1px;
+    margin: 40px auto;
+    padding: 30px;
+
+   .card-container{
+       margin: 40px auto;
+       border: black solid 1px;
+       height: 40%;
+       width:40%
+   }
+}
