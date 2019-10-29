@@ -7,9 +7,20 @@
     padding: 30px;
 
    .card-container{
+       /* background: url('../../assets/images/calc.png') no-repeat; */
+       background-size: cover;
        margin: 40px auto;
        border: black solid 1px;
        height: 40%;
-       width:40%
+       width:40%;
+
+
+       h1{
+         margin: 20px;
+       }
+       p{
+        margin: 15px;
+        font-size: 12px;
+       };
    }
 }

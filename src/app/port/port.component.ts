@@ -7,15 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortComponent implements OnInit {
 
-  pages = {
-    page1: {
-      title: 'calculator',
-      url: '#'
-    }
-  };
-  constructor() { }
+  constructor() {
+
+   }
 
   ngOnInit() {
   }
-
 }

@@ -14,23 +14,4 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  onRemoval() {
-    this.clickCounter --;
-    console.log(this.clickCounter);
-  }
-
-  onAdd() {
-    this.clickCounter ++;
-    console.log(this.clickCounter);
-  }
-  onClear() {
-    this.clickCounter = 0;
-    console.log(this.clickCounter);
-  }
-
-  changeText() {
-    alert('does it work?');
-    this.title = `LEOD_DEV`;
-  }
-
 }

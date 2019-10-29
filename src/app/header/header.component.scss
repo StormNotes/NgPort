@@ -1,5 +1,5 @@
 header{
-  
+
   height:auto;
   background: #000000;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -23,13 +23,13 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   #logo{
     height:40px;
     margin: 20px;
-    
+
   }
   .logo-header{
     font-size:2.3rem;
     margin: 25px;
   }
-  
+
 }
 .logo-header:hover{
   cursor: pointer;
@@ -45,7 +45,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   margin: 80px auto;
   width: 80%;
 
-  
+
 }
 
 .contact-github{
@@ -53,16 +53,17 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   display: flex;
   width: 30%;
   margin: 0 auto;
-  
+
   .btn{
   display: flex;
   border: #ffffff solid 2px;
   color:white;
   margin: auto;
-  
   padding: 10px;
-  }
-  .btn:hover{
+  transition: 0.9s all;
+}
+.btn:hover{
+    background: #ff8b1ef3;
     cursor: pointer;
   }
 
@@ -70,6 +71,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     color:white;
     text-decoration: none;
   }
+
 }
 
 
