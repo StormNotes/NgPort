@@ -1,26 +1,36 @@
 .container{
     display: flex;
-    height:100vh;
+    height:auto;
     width: 80%;
     border:rgba(0, 0, 0, 0.178) solid 0.1px;
     margin: 40px auto;
     padding: 30px;
 
    .card-container{
+
        /* background: url('../../assets/images/calc.png') no-repeat; */
        background-size: cover;
        margin: 40px auto;
        border: black solid 1px;
-       height: 40%;
+       height: 400px;
        width:40%;
 
 
        h1{
          margin: 20px;
+         a{
+           color:#000000;
+           text-decoration: none;
+         }
        }
        p{
         margin: 15px;
         font-size: 12px;
        };
+
+       img{
+         width: 100%;
+         height: auto;
+       }
    }
 }
