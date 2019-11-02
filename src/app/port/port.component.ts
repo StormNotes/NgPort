@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-
+import { pages } from '../port/pages'
 @Component({
   selector: 'app-port',
   templateUrl: './port.component.html',
   styleUrls: ['./port.component.scss']
 })
 export class PortComponent implements OnInit {
-
+  pages = pages;
 // tslint:disable-next-line: prefer-const
-   dict = {
+/*    dict = {
     page1:{
       title:'calculator',
       img:'../../assets/images/calc.png',
@@ -20,7 +20,7 @@ export class PortComponent implements OnInit {
       desc:'Simple calculator app made with vanilla JS HTML and SCSS',
       url:'https://stormnotes.github.io/calcu/'
     }
-  };
+  }; */
 
 constructor() {
 

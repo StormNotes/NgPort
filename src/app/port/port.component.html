@@ -1,29 +1,8 @@
 <div class="container">
-   <div  class="card-container">
-     <img src="{{dict.page1.img}}" alt="">
-      <h1><a href="{{dict.page1.url}}"  target="_blank">{{dict.page1.title}}</a></h1>
-       <p>{{dict.page1.desc}}</p>
-       <p></p>
-    </div>
-    <div  class="card-container">
-        <img src="{{dict.page1.img}}" alt="">
-         <h1><a href="{{dict.page1.url}}"  target="_blank">{{dict.page1.title}}</a></h1>
-          <p>{{dict.page1.desc}}</p>
-          <p></p>
+   <div *ngFor=' let page of pages'  class="card-container">
+     <img src="{{page.img}}" alt="">
+      <h1><a href=""  target="_blank">{{page.pageName}}</a></h1>
+       <p>{{page.description}}</p>
     </div>
 </div>
 
-<div class="container">
-   <div  class="card-container">
-     <img src="{{dict.page1.img}}" alt="">
-      <h1><a href="{{dict.page1.url}}"  target="_blank">{{dict.page1.title}}</a></h1>
-       <p>{{dict.page1.desc}}</p>
-       <p></p>
-    </div>
-    <div  class="card-container">
-        <img src="{{dict.page1.img}}" alt="">
-         <h1><a href="{{dict.page1.url}}"  target="_blank">{{dict.page1.title}}</a></h1>
-          <p>{{dict.page1.desc}}</p>
-          <p></p>
-    </div>
-</div>
