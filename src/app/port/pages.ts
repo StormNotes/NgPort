@@ -13,6 +13,6 @@ export const pages = [
     {
       pageName: 'Forms !',
       img: '../../assets/images/calc.png',
-      description: 'Small calculator app developed with Vanilla JS'
+      description: 'Small calculator app developed with Vanilla JS '
     }
 ];
