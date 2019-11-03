@@ -7,7 +7,8 @@ export const pages = [
     },
     {
       pageName: 'Coffee Delivery app',
-      img: '../../assets/images/calc.png',
+        url: '#',
+        img: '../../assets/images/calc.png',
       description: 'Small calculator app developed with Vanilla JS'
     },
     {
