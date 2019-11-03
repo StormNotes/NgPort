@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { pages } from '../port/pages'
+import { pages } from '../port/pages';
 @Component({
   selector: 'app-port',
   templateUrl: './port.component.html',
