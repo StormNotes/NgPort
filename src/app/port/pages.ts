@@ -15,4 +15,4 @@ export const pages = [
       img: '../../assets/images/calc.png',
       description: 'Small calculator app developed with Vanilla JS'
     }
-]
+];
