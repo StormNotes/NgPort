@@ -4,22 +4,23 @@
     margin: 0 auto;
     margin-top: 80px;
 
-    .cards{
-    padding: 10px;
-    margin: 0 auto;
+    .card-group{
+        
+        margin: 12px;
 
-        p{
-            margin: 10px;
-            font-size: 8px;
-        }
-        img{
-            margin: 10px;
-            height:70px;
-        }
+        .card{
+            border:none;
+            margin: 20px;
 
-        .card-body{
-            text-align: center;
-        }
 
+            img{
+                width: 80px;
+            }
+
+
+            .card-body{
+                font-size: 10px;
+            }
+        }
     }
 }
